@@ -14,6 +14,7 @@
 		79942DF82902DA9500208251 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79942DF72902DA9500208251 /* PersonModel.swift */; };
 		79942DFA2902DDE900208251 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79942DF92902DDE900208251 /* PersonViewModel.swift */; };
 		79942DFC2902E54C00208251 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79942DFB2902E54C00208251 /* PeopleView.swift */; };
+		79942DFE2902F77700208251 /* BaseballPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79942DFD2902F77700208251 /* BaseballPlayerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		79942DF72902DA9500208251 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		79942DF92902DDE900208251 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 		79942DFB2902E54C00208251 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		79942DFD2902F77700208251 /* BaseballPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballPlayerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				79942DF72902DA9500208251 /* PersonModel.swift */,
+				79942DFD2902F77700208251 /* BaseballPlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				79942DF82902DA9500208251 /* PersonModel.swift in Sources */,
 				79942DFC2902E54C00208251 /* PeopleView.swift in Sources */,
+				79942DFE2902F77700208251 /* BaseballPlayerModel.swift in Sources */,
 				79942DE62902CFEB00208251 /* ContentView.swift in Sources */,
 				79942DE42902CFEB00208251 /* PracticeMVVMApp.swift in Sources */,
 				79942DFA2902DDE900208251 /* PersonViewModel.swift in Sources */,
