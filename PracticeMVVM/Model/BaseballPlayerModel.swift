@@ -11,6 +11,5 @@ import SwiftUI
 struct BaseballPlayer: Identifiable {
     var id = UUID()
     var name: String
-    var position: String?
-    var battingOrder: Int?
+    var position: String
 }
