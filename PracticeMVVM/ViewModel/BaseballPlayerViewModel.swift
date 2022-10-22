@@ -45,4 +45,7 @@ let teamData = [
     BaseballPlayer(name: "伊藤", position: "左"),
     BaseballPlayer(name: "渡辺", position: "遊"),
     BaseballPlayer(name: "古田", position: "捕"),
+    BaseballPlayer(name: "中村", position: "左"),
+    BaseballPlayer(name: "小林", position: "遊"),
+    BaseballPlayer(name: "加藤", position: "捕"),
 ]
