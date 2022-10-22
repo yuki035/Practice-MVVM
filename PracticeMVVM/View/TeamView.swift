@@ -12,13 +12,13 @@ struct TeamView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             ScrollView() {
-                ForEach(viewModel.team) { player in
+                ForEach(Array(viewModel.team.enumerated()), id: \.element.id) { index, player in
                     HStack {
-                        Text("\(player.battingOrder ?? 0)")
+                        Text("\(index+1)")
                         Text(player.name)
                             .font(.title)
                             .fontWeight(.bold)
-                        Text(player.position ?? "")
+                        Text(player.position)
  
                     }
                     .frame(height: 40)
